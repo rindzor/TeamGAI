@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04A85E7F25C0B46900D3FB66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85E7E25C0B46900D3FB66 /* AppDelegate.swift */; };
-		04A85E8125C0B46900D3FB66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85E8025C0B46900D3FB66 /* SceneDelegate.swift */; };
-		04A85E8325C0B46A00D3FB66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85E8225C0B46A00D3FB66 /* ViewController.swift */; };
-		04A85E8625C0B46A00D3FB66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A85E8425C0B46A00D3FB66 /* Main.storyboard */; };
 		04A85E8825C0B46C00D3FB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A85E8725C0B46C00D3FB66 /* Assets.xcassets */; };
 		04A85E8B25C0B46C00D3FB66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A85E8925C0B46C00D3FB66 /* LaunchScreen.storyboard */; };
+		04A85E9A25C0B49C00D3FB66 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85E9325C0B49B00D3FB66 /* MainViewController.swift */; };
+		04A85E9B25C0B49C00D3FB66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85E9425C0B49B00D3FB66 /* SceneDelegate.swift */; };
+		04A85E9C25C0B49C00D3FB66 /* OpenARCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85E9525C0B49B00D3FB66 /* OpenARCell.swift */; };
+		04A85E9D25C0B49C00D3FB66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85E9625C0B49B00D3FB66 /* AppDelegate.swift */; };
+		04A85E9E25C0B49C00D3FB66 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85E9725C0B49C00D3FB66 /* LocationCell.swift */; };
+		04A85E9F25C0B49C00D3FB66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85E9825C0B49C00D3FB66 /* ViewController.swift */; };
+		04A85EA025C0B49C00D3FB66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A85E9925C0B49C00D3FB66 /* Main.storyboard */; };
+		84ED2B07BAC6BEA939B98168 /* Pods_TeamGAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF45527F42AA8CED94A18C2 /* Pods_TeamGAI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04A85E7B25C0B46900D3FB66 /* TeamGAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamGAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04A85E7E25C0B46900D3FB66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04A85E8025C0B46900D3FB66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04A85E8225C0B46A00D3FB66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04A85E8525C0B46A00D3FB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04A85E8725C0B46C00D3FB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A85E8A25C0B46C00D3FB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A85E8C25C0B46C00D3FB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A85E9325C0B49B00D3FB66 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		04A85E9425C0B49B00D3FB66 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../Learning Swift/INT20H_GAI/INT20H_GAI/SceneDelegate.swift"; sourceTree = "<group>"; };
+		04A85E9525C0B49B00D3FB66 /* OpenARCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenARCell.swift; sourceTree = "<group>"; };
+		04A85E9625C0B49B00D3FB66 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../Learning Swift/INT20H_GAI/INT20H_GAI/AppDelegate.swift"; sourceTree = "<group>"; };
+		04A85E9725C0B49C00D3FB66 /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		04A85E9825C0B49C00D3FB66 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../Learning Swift/INT20H_GAI/INT20H_GAI/ViewController.swift"; sourceTree = "<group>"; };
+		04A85E9925C0B49C00D3FB66 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0F57A52E8E82FAEF4387545C /* Pods-TeamGAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamGAI.debug.xcconfig"; path = "Target Support Files/Pods-TeamGAI/Pods-TeamGAI.debug.xcconfig"; sourceTree = "<group>"; };
+		89C22D8D57EFBD26CE22942F /* Pods-TeamGAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamGAI.release.xcconfig"; path = "Target Support Files/Pods-TeamGAI/Pods-TeamGAI.release.xcconfig"; sourceTree = "<group>"; };
+		9EF45527F42AA8CED94A18C2 /* Pods_TeamGAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamGAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ED2B07BAC6BEA939B98168 /* Pods_TeamGAI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				04A85E7D25C0B46900D3FB66 /* TeamGAI */,
 				04A85E7C25C0B46900D3FB66 /* Products */,
+				9F93CEC25169C0877502D103 /* Pods */,
+				8D787EE73148FE8EAA55D2CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,36 @@
 		04A85E7D25C0B46900D3FB66 /* TeamGAI */ = {
 			isa = PBXGroup;
 			children = (
-				04A85E7E25C0B46900D3FB66 /* AppDelegate.swift */,
-				04A85E8025C0B46900D3FB66 /* SceneDelegate.swift */,
-				04A85E8225C0B46A00D3FB66 /* ViewController.swift */,
-				04A85E8425C0B46A00D3FB66 /* Main.storyboard */,
+				04A85E9525C0B49B00D3FB66 /* OpenARCell.swift */,
+				04A85E9625C0B49B00D3FB66 /* AppDelegate.swift */,
+				04A85E9725C0B49C00D3FB66 /* LocationCell.swift */,
+				04A85E9925C0B49C00D3FB66 /* Main.storyboard */,
+				04A85E9325C0B49B00D3FB66 /* MainViewController.swift */,
+				04A85E9425C0B49B00D3FB66 /* SceneDelegate.swift */,
+				04A85E9825C0B49C00D3FB66 /* ViewController.swift */,
 				04A85E8725C0B46C00D3FB66 /* Assets.xcassets */,
 				04A85E8925C0B46C00D3FB66 /* LaunchScreen.storyboard */,
 				04A85E8C25C0B46C00D3FB66 /* Info.plist */,
 			);
 			path = TeamGAI;
+			sourceTree = "<group>";
+		};
+		8D787EE73148FE8EAA55D2CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EF45527F42AA8CED94A18C2 /* Pods_TeamGAI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F93CEC25169C0877502D103 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F57A52E8E82FAEF4387545C /* Pods-TeamGAI.debug.xcconfig */,
+				89C22D8D57EFBD26CE22942F /* Pods-TeamGAI.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A85E8F25C0B46C00D3FB66 /* Build configuration list for PBXNativeTarget "TeamGAI" */;
 			buildPhases = (
+				8E7C14B213E02761B7DC5547 /* [CP] Check Pods Manifest.lock */,
 				04A85E7725C0B46900D3FB66 /* Sources */,
 				04A85E7825C0B46900D3FB66 /* Frameworks */,
 				04A85E7925C0B46900D3FB66 /* Resources */,
+				1EDEC414E8615D6DD55D03E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +162,71 @@
 			files = (
 				04A85E8B25C0B46C00D3FB66 /* LaunchScreen.storyboard in Resources */,
 				04A85E8825C0B46C00D3FB66 /* Assets.xcassets in Resources */,
-				04A85E8625C0B46A00D3FB66 /* Main.storyboard in Resources */,
+				04A85EA025C0B49C00D3FB66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EDEC414E8615D6DD55D03E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeamGAI/Pods-TeamGAI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeamGAI/Pods-TeamGAI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeamGAI/Pods-TeamGAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E7C14B213E02761B7DC5547 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamGAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04A85E7725C0B46900D3FB66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A85E8325C0B46A00D3FB66 /* ViewController.swift in Sources */,
-				04A85E7F25C0B46900D3FB66 /* AppDelegate.swift in Sources */,
-				04A85E8125C0B46900D3FB66 /* SceneDelegate.swift in Sources */,
+				04A85E9B25C0B49C00D3FB66 /* SceneDelegate.swift in Sources */,
+				04A85E9F25C0B49C00D3FB66 /* ViewController.swift in Sources */,
+				04A85E9D25C0B49C00D3FB66 /* AppDelegate.swift in Sources */,
+				04A85E9C25C0B49C00D3FB66 /* OpenARCell.swift in Sources */,
+				04A85E9E25C0B49C00D3FB66 /* LocationCell.swift in Sources */,
+				04A85E9A25C0B49C00D3FB66 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04A85E8425C0B46A00D3FB66 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04A85E8525C0B46A00D3FB66 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04A85E8925C0B46C00D3FB66 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +356,7 @@
 		};
 		04A85E9025C0B46C00D3FB66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F57A52E8E82FAEF4387545C /* Pods-TeamGAI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +376,7 @@
 		};
 		04A85E9125C0B46C00D3FB66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C22D8D57EFBD26CE22942F /* Pods-TeamGAI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

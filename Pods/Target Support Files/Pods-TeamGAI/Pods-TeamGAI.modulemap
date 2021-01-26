@@ -1,0 +1,6 @@
+framework module Pods_TeamGAI {
+  umbrella header "Pods-TeamGAI-umbrella.h"
+
+  export *
+  module * { export * }
+}
